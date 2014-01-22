@@ -53,7 +53,7 @@ class ExpressionJob(args: Args) extends Job(args) {
 
       if(!isSparse)  {
         logger.info("Dense matrix " + path )
-        val out =  path.split("""\.""") :+ "out" mkString "." // path.split(".tsv")(0) + "out.tsv"
+        val out = path + ".out" // path.split(".tsv")(0) + "out.tsv"
         val pipe = matrixConvertTsv(path, out)
         logger.info("Converting is finished: " + path )
         EMatrix(pipe, rows, cols)
