@@ -6,7 +6,7 @@ It is a small framework, to make some sequences of operations on huge matrix.
 
 * The project uses [sbt](http://www.scala-sbt.org/)
 * To generate idea project just use `sbt idea-gen`
-* Generate "fat jar" only once (to keep there all dependencies) `sbt assembly`. You should re-build this jar: the project uses impressive [NoJarTool](https://github.com/ktoso/hadoop-scalding-nojartool)
+* Generate "fat jar" only once (to keep there all dependencies) `sbt assembly`. You should not re-build this jar every time you change sources: the project uses [NoJarTool](https://github.com/ktoso/hadoop-scalding-nojartool)
 * Fix project settings in `Global.scala`
 
 ## Wiki
