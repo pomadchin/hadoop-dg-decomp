@@ -1,0 +1,24 @@
+<Expr>
+      <Sum>
+        <Sum>
+          <Number filename="examples/data/Numbers/1.tsv"/>
+          <Sum>
+            <Number filename="examples/data/Numbers/1.tsv"/>
+             <Prod>
+              <Number filename="examples/data/Numbers/3.tsv"/>
+              <Prod>
+                <Number filename="examples/data/Numbers/3.tsv"/>
+                <Number filename="examples/data/Numbers/4.tsv"/>
+              </Prod>
+            </Prod>
+          </Sum>
+        </Sum>
+        <Prod>
+          <Number filename="examples/data/Numbers/3.tsv"/>
+          <Prod>
+            <Number filename="examples/data/Numbers/3.tsv"/>
+            <Number filename="examples/data/Numbers/4.tsv"/>
+          </Prod>
+        </Prod>
+      </Sum>
+</Expr>
