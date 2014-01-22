@@ -1,6 +1,6 @@
 ## Hadoop Decomp v1.0.0
 
-It is a small framework, to make some sequences of operations on huge matrix matrix. 
+It is a small framework, to make some sequences of operations on huge matrix. 
 
 ## How to
 
