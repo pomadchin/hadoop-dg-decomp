@@ -13,6 +13,10 @@ It is a small framework, to make some sequences of operations on huge matrix.
 
 Upcoming...
 
+## Authors
+* Dmitry Kostyaev <http://twitter.com/virtuozz0>
+* Grigory Pomadchin <http://twitter.com/daunnc>
+
 ## License
 
 Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
