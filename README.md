@@ -2,12 +2,16 @@
 
 It is a small framework, to make some sequences of operations on huge matrix. 
 
-## How to
+## Build
 
 * The project uses [sbt](http://www.scala-sbt.org/)
-* To generate idea project just use `sbt idea-gen`
+* To generate IntelijIDEA project just use `sbt idea-gen`
 * Generate "fat jar" only once (to keep there all dependencies) `sbt assembly`. You should not re-build this jar every time you change sources: the project uses [NoJarTool](https://github.com/ktoso/hadoop-scalding-nojartool)
 * Fix project settings in `Global.scala`
+
+We use [Travis CI](http://travis-ci.org/) to verify the build:
+[![Build Status](https://secure.travis-ci.org/pomadchin/hadoop-dg-decomp.png)](https://travis-ci.org/pomadchin/hadoop-dg-decomp/) 
+
 
 ## Wiki
 
