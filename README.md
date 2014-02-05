@@ -1,7 +1,6 @@
 ## Hadoop Decomp v1.0.0
 
 It is a small framework, to make some sequences of operations on huge matrix. 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/pomadchin/hadoop-dg-decomp/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 ## Build
 
